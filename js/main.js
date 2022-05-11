@@ -6,13 +6,14 @@ var swiper = new Swiper(".container", {
     },
 });
 var swiper = new Swiper(".help", {
-    cssMode: true,
+    slidesPerView: 2,
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
     pagination: {
         el: ".swiper-pagination",
+        clickable: true,
     },
     mousewheel: true,
     keyboard: true,

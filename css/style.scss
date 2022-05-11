@@ -396,11 +396,16 @@ h1, p {
       font-weight: 600;
     }
   }
-  .slider-book {
-    width: 638px;
+}
+.book-help{
+  .help {
     height: 225px;
-    margin-right: 25px;
-    border-radius: 10px;
-    background-color: #fc5a61;
+    .slider-book {
+      width: 638px;
+      height: 225px;
+      margin-right: 25px;
+      border-radius: 10px;
+      background-color: #fc5a61;
+    }
   }
 }

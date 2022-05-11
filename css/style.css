@@ -405,7 +405,11 @@ h1, p {
   font-family: "Proxima Nova";
   font-weight: 600;
 }
-.training .slider-book {
+
+.book-help .help {
+  height: 225px;
+}
+.book-help .help .slider-book {
   width: 638px;
   height: 225px;
   margin-right: 25px;
