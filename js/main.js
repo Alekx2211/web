@@ -18,6 +18,7 @@ var swiper = new Swiper(".help", {
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
+        bottom:0,
     },
     mousewheel: true,
     keyboard: true,

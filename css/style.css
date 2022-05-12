@@ -180,7 +180,7 @@ h1, p {
 
 .section-training {
   background-color: #F4D6CC;
-  height: 100%;
+  padding-bottom: 108px;
 }
 .section-training h1 {
   padding-top: 137px;
@@ -406,6 +406,16 @@ h1, p {
   font-weight: 600;
 }
 
+.booking {
+  position: relative;
+}
+.booking h1 {
+  padding-top: 70px;
+}
+.booking p {
+  padding-bottom: 57px;
+}
+
 .book-help .help {
   height: 225px;
 }
@@ -414,7 +424,187 @@ h1, p {
   height: 225px;
   margin-right: 25px;
   border-radius: 10px;
-  background-color: #fc5a61;
+  background-color: #FFFFFF;
+  padding-left: 14px;
+}
+.book-help .swiper-button-prev {
+  width: 30px;
+  height: 30px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  left: -44px;
+  top: 72%;
+}
+.book-help .swiper-button-prev::after {
+  content: "f104";
+  color: #F4B860;
+}
+.book-help .swiper-button-next {
+  width: 30px;
+  height: 30px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  top: 72%;
+  right: -25px;
+}
+.book-help .swiper-button-next::after {
+  content: "f104";
+  color: #F4B860;
+}
+.book-help .swiper-pagination {
+  bottom: 0;
+}
+
+.fa-solid {
+  color: #F4B860;
+}
+
+.slider-book .book-top {
+  font-family: Proxima Nova;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #32373B;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.slider-book .book-center {
+  font-family: Proxima Nova Rg;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4A5859;
+  padding-bottom: 18px;
+}
+.slider-book .book-bottom {
+  display: flex;
+}
+.slider-book .book-bottom .otvet {
+  display: flex;
+  padding-top: 3px;
+  margin-right: 64px;
+}
+.slider-book .book-bottom .otvet .foto1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: url("../img/foto1.png");
+}
+.slider-book .book-bottom .otvet .foto2 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: url("../img/foto3.png");
+}
+.slider-book .book-bottom .otvet .otvet-text {
+  padding-left: 10px;
+  padding-top: 4px;
+}
+.slider-book .book-bottom .otvet .otvet-text h1 {
+  font-family: Proxima Nova;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 0;
+}
+.slider-book .book-bottom .otvet .otvet-text p {
+  font-family: Proxima Nova Rg;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.slider-book .book-bottom .otvet .otvet-text .un {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 10px;
+  padding-bottom: 0;
+}
+.slider-book .book-bottom .comment {
+  display: flex;
+}
+.slider-book .book-bottom .comment .foto1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: url("../img/foto2.png");
+}
+.slider-book .book-bottom .comment .foto3 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: url("../img/foto4.png");
+}
+.slider-book .book-bottom .comment .otvet-text {
+  padding-left: 10px;
+  padding-top: 4px;
+}
+.slider-book .book-bottom .comment .otvet-text h1 {
+  font-family: Proxima Nova;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 0;
+}
+.slider-book .book-bottom .comment .otvet-text p {
+  font-family: Proxima Nova Rg;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.slider-book .book-bottom .comment .otvet-text .un {
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 0;
+  font-size: 10px;
+}
+.slider-book .book-bottom .maks {
+  margin-right: 0;
+}
+
+.section-question {
+  background-color: #F4B860;
+  height: 100%;
+}
+.section-question .question {
+  padding-top: 23px;
+  display: flex;
+}
+.section-question .question .robot {
+  width: 386px;
+  height: 427px;
+  background-image: url("../img/robot.png");
+}
+.section-question .question .you-question h1 {
+  font-family: Proxima Nova;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+}
+.section-question .question .you-question .decision {
+  display: flex;
+  align-items: center;
+}
+.section-question .question .you-question .cloud {
+  width: 159px;
+  height: 54px;
+  background-image: url("../img/oblako.png");
+  text-align: center;
+  padding-top: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

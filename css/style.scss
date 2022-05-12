@@ -174,7 +174,7 @@ h1, p {
 }
 .section-training {
   background-color: #F4D6CC;
-  height: 100%;
+  padding-bottom: 108px;
   h1 {
     padding-top: 137px;
     text-align: center;
@@ -397,7 +397,17 @@ h1, p {
     }
   }
 }
+.booking {
+  position: relative;
+  h1 {
+    padding-top: 70px;
+  }
+  p{
+    padding-bottom: 57px;
+  }
+}
 .book-help{
+
   .help {
     height: 225px;
     .slider-book {
@@ -405,7 +415,193 @@ h1, p {
       height: 225px;
       margin-right: 25px;
       border-radius: 10px;
-      background-color: #fc5a61;
+      background-color: #FFFFFF;
+      padding-left: 14px;
+    }
+  }
+  .swiper-button-prev {
+    width: 30px;
+    height: 30px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    left: -44px;
+    top: 72%;
+    &::after {
+      content: 'f104';
+      color: #F4B860;
+    }
+  }
+  .swiper-button-next {
+    width: 30px;
+    height: 30px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    top: 72%;
+    right: -25px;
+    &::after {
+      content: 'f104';
+      color: #F4B860;
+    }
+  }
+  .swiper-pagination {
+    bottom: 0;
+  }
+}
+.fa-solid {
+  color: #F4B860 ;
+}
+.slider-book {
+  .book-top{
+    font-family: Proxima Nova;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #32373B;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+  .book-center {
+    font-family: Proxima Nova Rg;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4A5859;
+    padding-bottom: 18px;
+  }
+
+  .book-bottom {
+    display: flex;
+
+    .otvet {
+      display: flex;
+      padding-top: 3px;
+      margin-right: 64px;
+      .foto1 {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-image: url("../img/foto1.png");
+      }
+      .foto2 {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-image: url("../img/foto3.png");
+      }
+      .otvet-text{
+        padding-left: 10px;
+        padding-top: 4px;
+        h1{
+          font-family: Proxima Nova;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 22px;
+          letter-spacing: 0em;
+          text-align: left;
+          padding: 0;
+
+        }
+        p {
+          font-family: Proxima Nova Rg;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 15px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+        .un {
+          text-transform: uppercase;
+          font-weight: 700;
+          font-size: 10px;
+          padding-bottom: 0;
+        }
+      }
+    }
+    .comment {
+      display: flex;
+      .foto1 {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-image: url("../img/foto2.png");
+      }
+      .foto3 {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-image: url("../img/foto4.png");
+      }
+      .otvet-text{
+        padding-left: 10px;
+        padding-top: 4px;
+        h1{
+          font-family: Proxima Nova;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 22px;
+          letter-spacing: 0em;
+          text-align: left;
+          padding: 0;
+        }
+        p {
+          font-family: Proxima Nova Rg;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 15px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+        .un {
+          text-transform: uppercase;
+          font-weight: 700;
+          padding-bottom: 0;
+          font-size: 10px;
+        }
+      }
+    }
+    .maks {
+      margin-right: 0;
     }
   }
 }
+.section-question {
+  background-color: #F4B860;
+  height: 100%;
+  .question {
+    padding-top: 23px;
+    display: flex;
+    .robot{
+      width: 386px;
+      height: 427px;
+      background-image: url("../img/robot.png");
+    }
+    .you-question {
+      h1 {
+        font-family: Proxima Nova;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 44px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+
+      }
+      .decision {
+        display: flex;
+        align-items: center;
+      }
+      .cloud {
+        width: 159px;
+        height: 54px;
+        background-image: url("../img/oblako.png");
+        text-align: center;
+        padding-top: 15px;
+      }
+    }
+  }
+}
+
