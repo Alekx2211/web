@@ -824,10 +824,13 @@ h1, p {
 }
 .section-program .container .photo .expression .hr {
   position: relative;
+  padding-top: 30px;
 }
 .section-program .container .photo .expression .hr-text {
   position: absolute;
   top: 30px;
+  background-color: #fff;
+  left: 500px;
 }
 
 /*# sourceMappingURL=style.css.map */

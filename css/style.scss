@@ -825,10 +825,13 @@ h1, p {
       .expression {
         .hr {
           position: relative;
+          padding-top: 30px;
         }
         .hr-text{
           position: absolute;
           top: 30px;
+          background-color: #fff;
+          left: 500px;
         }
       }
     }
