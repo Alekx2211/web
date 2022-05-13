@@ -22,6 +22,12 @@ var swiper = new Swiper(".help", {
     },
     mousewheel: true,
     keyboard: true,
+    breakpoints:{
+
+        1280:{
+            width: 600
+        }
+    }
 });
 var swiper = new Swiper(".exper", {
     slidesPerView: 2,
