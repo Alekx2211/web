@@ -796,6 +796,9 @@ h1, p {
 .section-program .container .photo .img-foto {
   width: 185px;
   height: 185px;
+  margin-left: 22px;
+  margin-right: 56px;
+  margin-top: 25px;
 }
 .section-program .container .photo .img-foto h1 {
   font-family: Proxima Nova;
@@ -821,6 +824,32 @@ h1, p {
   background-image: url(../img/foto8.png);
   background-position: center;
   margin-left: 25px;
+}
+.section-program .container .photo .expression span {
+  font-weight: 600;
+}
+.section-program .container .photo .expression .btn {
+  padding-right: 19px;
+  padding-left: 19px;
+  height: 34px;
+  line-height: 34px;
+  display: inline-block;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 100px;
+  font-family: Proxima Nova Rg;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+  text-decoration: none;
+}
+.section-program .container .photo .expression .dark {
+  background: #32373B;
+}
+.section-program .container .photo .expression .red {
+  background-color: #C83E4D;
 }
 .section-program .container .photo .expression p {
   font-family: Proxima Nova Rg;
