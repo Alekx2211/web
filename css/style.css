@@ -637,17 +637,8 @@ h1, p {
   padding-left: 12px;
   padding-right: 12px;
   justify-content: space-between;
-}
-.section-question .question .you-question .textarea .arow {
-  width: 30px;
-  height: 30px;
-  background-color: #F4B860;
-  border-radius: 50%;
-  text-align: center;
-}
-.section-question .question .you-question .textarea .arow .fa {
-  color: #FFFFFF;
-  padding-top: 7px;
+  border: none;
+  outline: none;
 }
 .section-question .question .you-question .textarea .area {
   font-family: Proxima Nova Rg;
@@ -673,6 +664,48 @@ h1, p {
   line-height: 18px;
   letter-spacing: 0em;
   text-align: left;
+  color: #FFFFFF;
+}
+.section-question .question .you-question .ili {
+  text-align: center;
+  position: relative;
+  padding-top: 30px;
+}
+.section-question .question .you-question .ili .text1 {
+  position: absolute;
+  left: 300px;
+  top: 28px;
+  background: #F4B860;
+  padding: 0 20px;
+  color: #FFFFFF;
+  font-family: Proxima Nova;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.section-question .question .you-question .ili hr {
+  background-color: #FFFFFF;
+  box-sizing: content-box;
+  height: 1px;
+}
+.section-question .in {
+  position: relative;
+}
+.section-question .arow {
+  width: 30px;
+  height: 30px;
+  background-color: #F4B860;
+  border-radius: 50%;
+  text-align: center;
+  border: none;
+  outline: none;
+  position: absolute;
+  top: 10px;
+  right: 14px;
+}
+.section-question .arow .fa {
   color: #FFFFFF;
 }
 
