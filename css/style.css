@@ -575,7 +575,7 @@ h1, p {
 
 .section-question {
   background-color: #F4B860;
-  height: 100%;
+  height: 474px;
 }
 .section-question .question {
   padding-top: 23px;
@@ -593,6 +593,9 @@ h1, p {
 .section-question .question .you-question .in {
   position: relative;
   padding-bottom: 20px;
+}
+.section-question .question .you-question .text-p {
+  padding-top: 20px;
 }
 .section-question .question .you-question h1 {
   font-family: Proxima Nova;
@@ -644,6 +647,11 @@ h1, p {
   justify-content: space-between;
   border: none;
   outline: none;
+  font-family: Proxima Nova Rg;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
 }
 .section-question .question .you-question .textarea .area {
   font-family: Proxima Nova Rg;
@@ -675,10 +683,11 @@ h1, p {
   text-align: center;
   position: relative;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 .section-question .question .you-question .ili .text1 {
   position: absolute;
-  left: 300px;
+  left: 397px;
   top: 28px;
   background: #F4B860;
   padding: 0 20px;
@@ -706,6 +715,13 @@ h1, p {
   border: none;
   outline: none;
   border-radius: 10px;
+  font-family: Proxima Nova;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 13px;
 }
 .section-question .question .you-question .telefon .tel .arow {
   left: 214px;
@@ -721,6 +737,16 @@ h1, p {
   color: #FFFFFF;
   padding-left: 13px;
 }
+.section-question .question .you-question .we {
+  font-family: Proxima Nova Rg;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  padding-bottom: 15px;
+}
 .section-question .arow {
   width: 30px;
   height: 30px;
@@ -735,6 +761,73 @@ h1, p {
 }
 .section-question .arow .fa {
   color: #FFFFFF;
+}
+
+.section-program {
+  height: 100%;
+  background-color: #F4D6CC;
+}
+.section-program h1 {
+  font-family: Proxima Nova;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 66px;
+  padding-right: 16px;
+}
+.section-program p {
+  font-family: Proxima Nova Rg;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-right: 10px;
+}
+.section-program .container {
+  height: 551px;
+}
+.section-program .container .photo {
+  background-color: #FFFFFF;
+  display: flex;
+}
+.section-program .container .photo .img-foto {
+  width: 185px;
+  height: 185px;
+}
+.section-program .container .photo .img-foto h1 {
+  font-family: Proxima Nova;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 0;
+}
+.section-program .container .photo .img-foto p {
+  font-family: "Proxima Nova Lt";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.section-program .container .photo .img-foto .foto {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-image: url(../img/foto8.png);
+  background-position: center;
+  margin-left: 25px;
+}
+.section-program .container .photo .expression .hr {
+  position: relative;
+}
+.section-program .container .photo .expression .hr-text {
+  position: absolute;
+  top: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

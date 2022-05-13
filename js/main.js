@@ -23,3 +23,19 @@ var swiper = new Swiper(".help", {
     mousewheel: true,
     keyboard: true,
 });
+var swiper = new Swiper(".exper", {
+    slidesPerView: 2,
+    loop: true,
+
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        bottom:0,
+    },
+    mousewheel: true,
+    keyboard: true,
+});
