@@ -590,6 +590,10 @@ h1, p {
   padding-left: 67px;
   padding-top: 10px;
 }
+.section-question .question .you-question .in {
+  position: relative;
+  padding-bottom: 20px;
+}
 .section-question .question .you-question h1 {
   font-family: Proxima Nova;
   font-size: 36px;
@@ -603,6 +607,7 @@ h1, p {
   display: flex;
   align-items: center;
   padding-top: 20px;
+  padding-bottom: 25px;
 }
 .section-question .question .you-question .text {
   font-family: Proxima Nova;
@@ -690,8 +695,31 @@ h1, p {
   box-sizing: content-box;
   height: 1px;
 }
-.section-question .in {
+.section-question .question .you-question .telefon {
   position: relative;
+  display: flex;
+  align-items: center;
+}
+.section-question .question .you-question .telefon .tel .texta {
+  width: 257px;
+  height: 43px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+.section-question .question .you-question .telefon .tel .arow {
+  left: 214px;
+  top: 5px;
+}
+.section-question .question .you-question .telefon .smal {
+  font-family: Proxima Nova Rg;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  padding-left: 13px;
 }
 .section-question .arow {
   width: 30px;
