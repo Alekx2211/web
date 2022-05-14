@@ -37,6 +37,8 @@ html, body {
 body {
   padding: 0;
   margin: 0;
+  height: 4000px;
+  background-color: #E5E5E5;
 }
 h1, p {
   margin: 0;
@@ -46,7 +48,7 @@ h1, p {
   height: 579px;
 }
 .wrap {
-  width: 1338px;
+  width: 100%;
   margin: 0 auto;
 }
 .top {
@@ -174,7 +176,6 @@ h1, p {
   margin-top: 285px;
 }
 .section-training {
-  background-color: #F4D6CC;
   padding-bottom: 108px;
   h1 {
     padding-top: 137px;
@@ -480,7 +481,7 @@ h1, p {
     .otvet {
       display: flex;
       padding-top: 3px;
-      margin-right: 64px;
+      margin-right: 62px;
       .foto1 {
         width: 60px;
         height: 60px;
@@ -767,8 +768,8 @@ h1, p {
   }
 }
 .section-program {
-  height: 100%;
-  background-color: #F4D6CC;
+
+
   h1{
     font-family: Proxima Nova;
     font-size: 36px;
@@ -790,9 +791,15 @@ h1, p {
   }
   .container{
     height: 551px;
+    .swiper-wrapper {
+      width: 1320px;
+    }
     .photo {
       background-color: #FFFFFF;
       display: flex;
+      padding-right: 20px;
+      padding-left: 7px;
+      border-radius: 10px;
       .img-foto {
         width: 185px;
         height: 185px;
@@ -862,11 +869,44 @@ h1, p {
           text-align: left;
           padding-top: 20px;
         }
-        .expression  {
+        .experience  {
+          .hr {
+            padding-top: 25px;
+            padding-bottom: 20px;
+          }
+          .hr-text{
+            top: 18px;
+            left: 385px;
+          }
+          p{
+            padding-top: 0;
+          }
+        }
+        .facts {
+          .hr-text {
+            top: 14px;
+            left: 385px;
+          }
+          .hr {
+            padding-top: 16px;
+          }
+        }
+        .courses {
+          .hr {
+            padding-top: 20px;
+            padding-bottom: 20px;
+          }
+          .hr-text {
+            top: 18px;
+            left: 385px;
+          }
+          .button{
+            padding-bottom: 25px;
+          }
         }
         .hr {
           position: relative;
-          padding-top: 30px;
+          padding-top: 33px;
           font-family: Proxima Nova;
           font-size: 18px;
           font-weight: 600;
@@ -879,13 +919,15 @@ h1, p {
           position: absolute;
           top: 30px;
           background-color: #fff;
-          left: 406px;
+          left: 390px;
           text-transform: uppercase;
+          width: 286px;
         }
       }
     }
   }
 }
+
 @media (max-width: 1280px) {
   .wrap {
     width: 100%;

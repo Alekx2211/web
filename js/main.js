@@ -22,16 +22,12 @@ var swiper = new Swiper(".help", {
     },
     mousewheel: true,
     keyboard: true,
-    breakpoints:{
 
-        1280:{
-            width: 600
-        }
-    }
 });
 var swiper = new Swiper(".exper", {
-    slidesPerView: 2,
-    loop: true,
+    slidesPerView: "auto",
+    centeredSlides: true,
+    spaceBetween: 30,
 
     navigation: {
         nextEl: ".swiper-button-next",
@@ -40,7 +36,6 @@ var swiper = new Swiper(".exper", {
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
-        bottom:0,
     },
     mousewheel: true,
     keyboard: true,

@@ -31,6 +31,8 @@ html, body {
 body {
   padding: 0;
   margin: 0;
+  height: 4000px;
+  background-color: #E5E5E5;
 }
 
 h1, p {
@@ -43,7 +45,7 @@ h1, p {
 }
 
 .wrap {
-  width: 1338px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -180,7 +182,6 @@ h1, p {
 }
 
 .section-training {
-  background-color: #F4D6CC;
   padding-bottom: 108px;
 }
 .section-training h1 {
@@ -487,7 +488,7 @@ h1, p {
 .slider-book .book-bottom .otvet {
   display: flex;
   padding-top: 3px;
-  margin-right: 64px;
+  margin-right: 62px;
 }
 .slider-book .book-bottom .otvet .foto1 {
   width: 60px;
@@ -764,10 +765,6 @@ h1, p {
   color: #FFFFFF;
 }
 
-.section-program {
-  height: 100%;
-  background-color: #F4D6CC;
-}
 .section-program h1 {
   font-family: Proxima Nova;
   font-size: 36px;
@@ -790,9 +787,15 @@ h1, p {
 .section-program .container {
   height: 551px;
 }
+.section-program .container .swiper-wrapper {
+  width: 1320px;
+}
 .section-program .container .photo {
   background-color: #FFFFFF;
   display: flex;
+  padding-right: 20px;
+  padding-left: 7px;
+  border-radius: 10px;
 }
 .section-program .container .photo .img-foto {
   width: 185px;
@@ -861,9 +864,38 @@ h1, p {
   text-align: left;
   padding-top: 20px;
 }
+.section-program .container .photo .expression .experience .hr {
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+.section-program .container .photo .expression .experience .hr-text {
+  top: 18px;
+  left: 385px;
+}
+.section-program .container .photo .expression .experience p {
+  padding-top: 0;
+}
+.section-program .container .photo .expression .facts .hr-text {
+  top: 14px;
+  left: 385px;
+}
+.section-program .container .photo .expression .facts .hr {
+  padding-top: 16px;
+}
+.section-program .container .photo .expression .courses .hr {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.section-program .container .photo .expression .courses .hr-text {
+  top: 18px;
+  left: 385px;
+}
+.section-program .container .photo .expression .courses .button {
+  padding-bottom: 25px;
+}
 .section-program .container .photo .expression .hr {
   position: relative;
-  padding-top: 30px;
+  padding-top: 33px;
   font-family: Proxima Nova;
   font-size: 18px;
   font-weight: 600;
@@ -875,8 +907,9 @@ h1, p {
   position: absolute;
   top: 30px;
   background-color: #fff;
-  left: 406px;
+  left: 390px;
   text-transform: uppercase;
+  width: 286px;
 }
 
 @media (max-width: 1280px) {
