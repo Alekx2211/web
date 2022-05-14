@@ -164,6 +164,7 @@ h1, p {
   width: 100%;
   overflow: hidden;
   border-radius: 10px;
+  margin-top: 50px;
 }
 .bottom-left {
   width: 777px;
@@ -796,7 +797,7 @@ h1, p {
         width: 185px;
         height: 185px;
         margin-left: 22px;
-        margin-right: 56px;
+        margin-right: 25px;
         margin-top: 25px;
         h1{
           font-family: Proxima Nova;
@@ -859,6 +860,7 @@ h1, p {
           line-height: 19px;
           letter-spacing: 0em;
           text-align: left;
+          padding-top: 20px;
         }
         .expression  {
         }
@@ -877,7 +879,8 @@ h1, p {
           position: absolute;
           top: 30px;
           background-color: #fff;
-          left: 500px;
+          left: 406px;
+          text-transform: uppercase;
         }
       }
     }
