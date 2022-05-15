@@ -6,6 +6,7 @@ var swiper = new Swiper(".container", {
     },
 });
 var swiper = new Swiper(".help", {
+
     slidesPerView: 1,
     loop: true,
     spaceBetween: 44,
@@ -27,8 +28,8 @@ var swiper = new Swiper(".help", {
 var swiper = new Swiper(".exper", {
     slidesPerView: "auto",
     centeredSlides: true,
-    spaceBetween: 30,
-
+    spaceBetween: 26,
+    loop: true,
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
@@ -39,4 +40,5 @@ var swiper = new Swiper(".exper", {
     },
     mousewheel: true,
     keyboard: true,
+
 });
